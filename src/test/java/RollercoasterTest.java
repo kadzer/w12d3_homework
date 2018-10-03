@@ -11,8 +11,8 @@ public class RollercoasterTest {
     @Before
     public void setUp() throws Exception {
         rollercoaster = new Rollercoaster(25, 12,122,198,94,93);
-        customer1 = new Customer(12,130, 50);
-        customer2 = new Customer(44,199, 20);
+        customer1 = new Customer("Bob",12,130, 50);
+        customer2 = new Customer("Rob",44,199, 20);
     }
 
     @Test

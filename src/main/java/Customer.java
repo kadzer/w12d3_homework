@@ -1,9 +1,11 @@
 public class Customer {
+    private String name;
     private int age;
     private int height;
     private double money;
 
-    public Customer(int age, int height, double money) {
+    public Customer(String name, int age, int height, double money) {
+        this.name = name;
         this.age = age;
         this.height = height;
         this.money = money;
