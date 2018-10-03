@@ -1,4 +1,4 @@
-import Rollercoasters.Ride;
+import rides.Ride;
 
 import java.util.ArrayList;
 

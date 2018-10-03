@@ -1,5 +1,5 @@
-import Customers.Customer;
-import Rollercoasters.Rollercoaster;
+import customers.Customer;
+import rides.rollercoasters.Rollercoaster;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,4 +1,6 @@
-package Rollercoasters;
+package rides.rollercoasters;
+
+import rides.Ride;
 
 public class Rollercoaster extends Ride {
     private int height;

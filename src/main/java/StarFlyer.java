@@ -1,4 +1,4 @@
-import Rollercoasters.Ride;
+import rides.Ride;
 
 public class StarFlyer extends Ride {
     private int height;

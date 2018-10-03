@@ -1,6 +1,6 @@
-package Rollercoasters;
+package rides;
 
-import Customers.Customer;
+import customers.Customer;
 
 import java.util.ArrayList;
 
