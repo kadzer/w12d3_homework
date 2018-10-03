@@ -26,5 +26,9 @@ public abstract class Ride {
     public int getMaxHeight() {
         return maxHeight;
     }
-
+// common methods
+    public boolean canRideHeightCheck(Customer customer){
+        int height = customer.getHeight();
+        return height >= this.minHeight && height <= this.maxHeight;
+    }
 }
