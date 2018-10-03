@@ -1,10 +1,12 @@
+import Rollercoasters.Ride;
+
 public class StarFlyer extends Ride {
     private int height;
     private int rotationalSpeed;
     private int verticalSpeed;
 
-    public StarFlyer(double price, int minAge, int minHeight, int maxHeight, int height, int rotationalSpeed, int verticalSpeed) {
-        super(price, minAge, minHeight, maxHeight);
+    public StarFlyer(String name, double price, int minAge, int minHeight, int maxHeight, int height, int rotationalSpeed, int verticalSpeed) {
+        super(name, price, minAge, minHeight, maxHeight);
         this.height = height;
         this.rotationalSpeed = rotationalSpeed;
         this.verticalSpeed = verticalSpeed;

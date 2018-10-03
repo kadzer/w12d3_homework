@@ -1,3 +1,5 @@
+import Customers.Customer;
+import Rollercoasters.Rollercoaster;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -10,7 +12,7 @@ public class RollercoasterTest {
 
     @Before
     public void setUp() throws Exception {
-        rollercoaster = new Rollercoaster(25, 12,122,198,94,93);
+        rollercoaster = new Rollercoaster("Spacemountain",25, 12,122,198,94,93);
         customer1 = new Customer("Bob",12,130, 50);
         customer2 = new Customer("Rob",44,199, 20);
     }

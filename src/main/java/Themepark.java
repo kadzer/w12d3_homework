@@ -1,3 +1,5 @@
+import Rollercoasters.Ride;
+
 import java.util.ArrayList;
 
 public class Themepark {

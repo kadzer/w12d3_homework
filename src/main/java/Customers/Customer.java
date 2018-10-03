@@ -1,3 +1,5 @@
+package Customers;
+
 public class Customer {
     private String name;
     private int age;
@@ -21,5 +23,8 @@ public class Customer {
 
     public double getMoney() {
         return money;
+    }
+    public void payForRide(double money){
+        this.money -= money;
     }
 }
