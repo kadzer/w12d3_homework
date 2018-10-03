@@ -23,4 +23,9 @@ public class RollercoasterTest {
         assertEquals(false, rollercoaster.canRideHeightCheck(customer2));
     }
 
+    @Test
+    public void canAddCustomerToRide() {
+        rollercoaster.addPassenger(customer1);
+        assertEquals(1, rollercoaster.countPassengers());
+    }
 }

@@ -36,13 +36,17 @@ public abstract class Ride {
     public int getMaxHeight() {
         return maxHeight;
     }
+    public int countPassengers(){
+        return this.passengers.size();
+    }
 // common methods
     public boolean canRideHeightCheck(Customer customer){
         int height = customer.getHeight();
         return height >= this.minHeight && height <= this.maxHeight;
     }
 
-    public void admit(Customer customer1){
-
+    public void addPassenger(Customer customer){
+        this.passengers.add(customer);
     };
+
 }
