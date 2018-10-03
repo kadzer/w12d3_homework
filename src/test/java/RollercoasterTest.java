@@ -20,4 +20,5 @@ public class RollercoasterTest {
         assertEquals(true, rollercoaster.canRideHeightCheck(customer1));
         assertEquals(false, rollercoaster.canRideHeightCheck(customer2));
     }
+
 }

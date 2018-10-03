@@ -1,14 +1,18 @@
+import java.util.ArrayList;
+
 public abstract class Ride {
     private double price;
     private int minAge;
     private int minHeight;
     private int maxHeight;
+    private ArrayList<Customer> passengers;
 
     public Ride(double price, int minAge, int minHeight, int maxHeight) {
         this.price = price;
         this.minAge = minAge;
         this.minHeight = minHeight;
         this.maxHeight = maxHeight;
+        this.passengers = new ArrayList<>();
     }
 
     public double getPrice() {
@@ -31,4 +35,8 @@ public abstract class Ride {
         int height = customer.getHeight();
         return height >= this.minHeight && height <= this.maxHeight;
     }
+
+    public void admit(Customer customer1){
+
+    };
 }
